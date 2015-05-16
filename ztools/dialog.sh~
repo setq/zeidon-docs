@@ -1,0 +1,3 @@
+#!/bin/bash
+
+sh /opt/zeidon/ztools/start_tool.sh tzpntrad
