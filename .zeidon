@@ -3,12 +3,25 @@ usage and overview:
       	YOU NEED TO HAVE WINE INSTALLED! If you have not installed wine, please do so now.
 	sudo apt-get install wine
 
-	You can call each command by the defined command name above. For instance, 
+	You can call each command by the defined command name below. For instance, 
 	from the command line, if you use zbr you will load the zeidon object browser.
 
 	You can also use the zcall command to manually call an object. 
 	At the command line: zcall tzobrwad would load up the zeidon object
 	browser.
+
+	All commands get installed in your ~/.bashrc, if you do not use the bashrc files
+	please create the following in your alias file:
+	
+	<alias> zbr='sh /opt/zeidon/ztools/browser.sh'
+	<alias> zdb='sh /opt/zeidon/ztools/dbhandlers.sh'
+	<alias> zdi='sh /opt/zeidon/ztools/dialog.sh'
+	<alias> zdo='sh /opt/zeidon/ztools/domains.sh'
+	<alias> zer='sh /opt/zeidon/ztools/er_tools.sh'
+	<alias> zlo='sh /opt/zeidon/ztools/lod_tools.sh'
+	<alias> zop='sh /opt/zeidon/ztools/operations.sh'
+	<alias> zte='sh /opt/zeidon/ztools/te_tools.sh'
+	<alias> zwk='sh /opt/zeidon/ztools/workstation.sh'
 
 commands:
 	zbr: zeidon object browser		     -> tzobrwad
