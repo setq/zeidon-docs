@@ -1,0 +1,52 @@
+
+usage and overview:
+      	YOU NEED TO HAVE WINE INSTALLED! If you have not installed wine, please do so now.
+	sudo apt-get install wine
+
+	You can call each command by the defined command name above. For instance, 
+	from the command line, if you use zbr you will load the zeidon object browser.
+
+	You can also use the zcall command to manually call an object. 
+	At the command line: zcall tzobrwad would load up the zeidon object
+	browser.
+
+commands:
+	zbr: zeidon object browser		     -> tzobrwad
+	zdb: zeidon database handler 		     -> tztedbld
+	zdi: zeidon dialog editor    		     -> tzpntrad
+	zdo: zeidon domain editor    		     -> tzdmupdd
+	zer: zeidon entity relationship model tool   -> tzeremdd 
+	zlo: zeidon logical object definition editor -> tzzolodd
+	zop: zeidon operation editor -- global 	     -> tzopupdd
+	zte: zeidon technical environment tool	     -> tzteupdd
+	zwk: zeidon workstation tool	  	     -> tzcmlpld
+      zcall: zeidon call <zeidon object> 	     -> <N/A>
+
+zeidon tool definitions:
+
+     zbr: Zeidon Object Browser
+     -- TODO: Description
+
+     zdb: Zeidon Database Handler
+     -- TODO: Description
+
+     zdi: Zeidon Dialog Editor
+     -- TODO: Description
+
+     zdo: Zeidon domain Editor
+     -- TODO: Description
+
+     zer: Zeidon Entity / Relationship Model Tool
+     -- TODO: Description
+
+     zlo: Zeidon Logical Object Definition Editor
+     -- TODO: Description
+
+     zop: Zeidon Global Operation Editor
+     -- TODO: Description
+
+     zte: Zeidon Technical Environment Tool
+     -- TODO: Description
+
+     zwk: Zeidon Workstation Tool
+     -- TODO: Description 
