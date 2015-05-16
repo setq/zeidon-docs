@@ -1,0 +1,5 @@
+Tools outside of zeidon you will need:
+      * java
+      * eclipse (any java editor)
+      * database technology  e.g (postgres, sqlite3, mysql, MSSQL)
+      * tomcat for webapps
